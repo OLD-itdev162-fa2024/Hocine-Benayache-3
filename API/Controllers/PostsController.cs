@@ -9,7 +9,7 @@ using Persistence;
 namespace API.Controllers 
 {
     [ApiController]
-    [Route("api[controller]")]
+    [Route("api/[controller]")]
 
     public class PostsController : ControllerBase
     {
