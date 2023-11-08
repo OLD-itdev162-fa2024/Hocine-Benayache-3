@@ -51,7 +51,7 @@ namespace API.Controllers
     /// <param name="request">JSON request containing post field</param>
     /// <returns>A new post</return>
     
-     [HttpGet(Name = "Create")]
+     [HttpPost(Name = "Create")]
         public ActionResult<Post>Create([FromBody]Post request)
         {
             var post = new Post
